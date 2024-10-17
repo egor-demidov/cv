@@ -1,0 +1,184 @@
+cv:
+  name: Egor Demidov
+  location: East Newark, NJ
+  email: mail@edemidov.com
+  phone: tel:+1-862-301-2677
+  website: https://edemidov.com/
+  social_networks:
+#    - network: LinkedIn
+#      username: yourusername
+    - network: GitHub
+      username: egor-demidov
+  sections:
+    education:
+      - institution: New Jersey Institute of Technology
+        area: Chemistry
+        degree: PhD
+        start_date: 2023-09
+        end_date: present
+        highlights:
+        - Research Assistantship
+        - AAAR 2024 student travel award
+        - NSF ACCESS Explore award
+      - institution: New Jersey Institute of Technology
+        area: Chemical Engineering
+        degree: BS
+        start_date: 2019-09
+        end_date: 2023-05
+        highlights:
+          - 'Minor in Computer Science'
+          - 'Albert Dorman Honors Scholar'
+          - 'Magna Cum Laude'
+          - 'Academic Scholar Award'
+          - "Redling '54, '61 Scholarship"
+          - 'Rodriguez, John, Alumni Scholarchip'
+          - 'Fenster, SK, Student Scholarship'
+          - 'Imaginative Senior Award, North Jersey AIChE section'
+    publications:
+      - title: Discrete element method model of soot aggregates
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        doi: 10.48550/arXiv.2407.14254
+        journal: Preprint; accepted to Physical Review E
+        date: 2024-10
+      - title: Differences and similarities in optical properties of coated fractal soot and its surrogates
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Ogochukwu Y. Enekwizu'
+          - 'Ali Hasani'
+          - 'Chong Qiu'
+          - 'Alexei F. Khalizov'
+        doi: 10.1016/j.jaerosci.2024.106392
+        journal: Journal of Aerosol Science
+        date: 2024-05
+    conference proceedings:
+      - name: Discrete element method model for restructuring of soot aggregates
+        location: AAAR
+        date: 2024
+      - name: Modeling of soot restructuring
+        location: PNNL EMSL
+        date: 2024
+      - name: Discrete element method model for restructuring of atmospheric soot aggregates
+        location: ACS MARM
+        date: 2024
+      - name: Development of a model for restructuring of fractal soot aggregates and its parameterization using AFM experiments
+        location: Regional Meeting on Kinetics and Dynamics
+        date: 2024
+      - name: An algorithm for evaluating fractal parameters of a single soot aggregate
+        location: AAAR
+        date: 2023
+      - name: Retrieval of the fractal parameters of individual soot aggregates
+        location: Regional Meeting on Kinetics and Dynamics
+        date: 2023
+      - name: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
+        location: ACS NERM
+        date: 2022
+      - name: Light absorption and scattering by coated combustion soot and its surrogates
+        location: AGU
+        date: 2022
+      - name:  Light scattering and absorption by soot aerosols with different morphologies and coating distributions
+        location: AMS
+        date: 2022
+      - name: Methods for predicting supersaturation in a laminar flow
+        location: AMS
+        date: 2022
+      - name: Predicting supersaturation in a laminar flow
+        location: Regional Meeting on Kinetics and Dynamics
+        date: 2022
+      - name: Enhanced light scattering and absorption by soot aerosols with different coating distributions
+        location: ACS MARM
+        date: 2021
+    projects:
+      - name: '[soot-dem](https://github.com/egor-demidov/soot-dem)'
+        highlights:
+          - Developed a custom code for discrete element simulation of soot aggregate mechanics
+          - 'Tools Used: C++, OpenMP, Eigen'
+      - name: '[soot-dem-gui](https://github.com/egor-demidov/soot-dem-gui)'
+        highlights:
+          - Developed a graphical user interface wrapper from the soot mechanics engine
+          - 'Tools Used: C++, Qt, VTK'
+      - name: '[create-latexdiff](https://github.com/egor-demidov/create-latexdiff)'
+        highlights:
+          - Developed a GitHub action to automatically generate latexdiff files for version-controlled LaTeX projects
+          - 'Tools Used: Docker, Bash'
+    areas of expertise:
+      - label: Computational chemistry and physics
+        details: discrete element method, classical molecular dynamics, finite element analysis, finite difference methods, discrete dipole approximation, T-matrix, core-shell Mie scattering
+      - label: Experimental techniques
+        details: scanning electron microscopy, electrostatic aerosol sizing, aerosol scattering measurements, contact angle measurements
+
+design:
+  theme: engineeringresumes
+  font: Charter
+  font_size: 10pt
+  page_size: letterpaper
+  color: black
+  disable_external_link_icons: true
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 25 pt
+  text_alignment: left-aligned
+  seperator_between_connections: $|$
+  use_icons_for_connections: false
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 3.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to
+
