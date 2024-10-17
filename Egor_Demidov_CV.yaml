@@ -13,6 +13,7 @@ cv:
       username: 0000-0003-3082-488X
     - network: Google Scholar
       username: vZx_CiUAAAAJ
+
   sections:
     education:
       - institution: New Jersey Institute of Technology
@@ -38,6 +39,7 @@ cv:
           - 'Rodriguez, John, Alumni Scholarchip'
           - 'Fenster, SK, Student Scholarship'
           - 'Imaginative Senior Award, North Jersey AIChE section'
+
     publications:
       - title: Discrete element method model of soot aggregates
         authors:
@@ -57,6 +59,7 @@ cv:
         doi: 10.1016/j.jaerosci.2024.106392
         journal: Journal of Aerosol Science, 106392
         date: 2024-05
+
     conference proceedings:
       - title: Discrete element method model for restructuring of soot aggregates
         authors:
@@ -101,31 +104,46 @@ cv:
           - 'Alexei F. Khalizov'
         journal: \(41^\text{st}\) Regional Meeting on Kinetics and Dynamics, Amherst, MA
         date: 2023-01
-#      - name: Retrieval of the fractal parameters of individual soot aggregates
-#        location: Regional Meeting on Kinetics and Dynamics
-#        date: 2023
-#      - name: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
-#        location: ACS NERM
-#        date: 2022
-#      - name: Light absorption and scattering by coated combustion soot and its surrogates
-#        location: AGU
-#        date: 2022
-#      - name:  Light scattering and absorption by soot aerosols with different morphologies and coating distributions
-#        location: AMS
-#        date: 2022
-#      - name: Methods for predicting supersaturation in a laminar flow
-#        location: AMS
-#        date: 2022
-#      - name: Predicting supersaturation in a laminar flow
-#        location: Regional Meeting on Kinetics and Dynamics
-#        date: 2022
-#      - name: Enhanced light scattering and absorption by soot aerosols with different coating distributions
-#        location: ACS MARM
-#        date: 2021
+      - title: Light absorption and scattering by coated combustion soot and its surrogates
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Ogochukwu Enekwizu'
+          - 'Chong Qiu'
+          - 'Alexei F. Khalizov'
+        journal: AGU Fall Meeting 2022, Chicago, IL
+        date: 2022-12
+      - title: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: ACS NERM 2022, Rochester, NY
+        date: 2022-10
+      - title: Light scattering and absorption by soot aerosols with different morphologies and coating distributions
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Ogochukwu Enekwizu'
+          - 'Alexei F. Khalizov'
+        journal: \(102^\text{nd}\) AMS Annual Meeting, online
+        date: 2022-01
+      - title: Methods for predicting supersaturation in a laminar flow
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: \(102^\text{nd}\) AMS Annual Meeting, online
+        date: 2022-01
+      - title: Enhanced light scattering and absorption by soot aerosols with different coating distributions
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: ACS MARM 2021, online
+        date: 2021-06
     referee work:
       - name: Journal of Geophysical Research
         date: 2024
-    projects:
+
+    software projects:
       - name: '[soot-dem](https://github.com/egor-demidov/soot-dem)'
         highlights:
           - Developed a custom code for discrete element simulation of soot aggregate mechanics
@@ -136,8 +154,19 @@ cv:
           - 'Tools Used: C++, Qt, VTK'
       - name: '[create-latexdiff](https://github.com/egor-demidov/create-latexdiff)'
         highlights:
-          - Developed a GitHub action to automatically generate latexdiff files for version-controlled LaTeX projects
+          - Developed a GitHub action to automatically generate latexdiff files for version-controlled \LaTeX\ projects
           - 'Tools Used: Docker, Bash'
+
+    experimental projects:
+      - name: Aerosol growth tube
+        highlights:
+          - Designed a condenser tube with precise vapor supersaturation control
+          - Rates of heat and mass transfer in the condenser were simulated numerically
+      - name: Aerosol coagulation chamber
+        highlights:
+          - Extended Alexei Khalizov's aerosol generation and aging system with a coagulation chamber with controlled residence time
+          - The coagulation chamber allowed us to investigate the mechanical differences between nascent soot aggregates and agglomerates of aggregates
+
     areas of expertise:
       - label: Computational chemistry and physics
         details: discrete element method, classical molecular dynamics, finite element analysis, finite difference methods, discrete dipole approximation, T-matrix, core-shell Mie scattering
