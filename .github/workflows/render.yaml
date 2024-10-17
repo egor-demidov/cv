@@ -11,6 +11,7 @@ on:
 jobs:
   Compile-Linux-GNU:
       runs-on: ubuntu-latest
+      permissions: write-all
       steps:
         - name: Checkout repository
           uses: actions/checkout@v3
@@ -22,7 +23,6 @@ jobs:
             ./render.sh
 
         - name: Release
-          permissions: write-all
           uses: actions/create-release@v1
           id: create_release
           with:
