@@ -33,6 +33,17 @@ jobs:
             body: CV updated
           env:
             GITHUB_TOKEN: ${{ github.token }}
+
+        - name: Upload CV PDF
+          uses: actions/upload-release-asset@v1
+          env:
+            GITHUB_TOKEN: ${{ github.token }}
+          with:
+            upload_url: ${{ steps.create_release.outputs.upload_url }}
+            asset_path: ./rendercv_output/Egor_Demidov_CV.pdf
+            asset_name: Egor_Demidov_CV.pdf
+            asset_content_type: application/pdf
+
   #      - name: Archive compiled artifact
   #        uses: actions/upload-artifact@v3
   #        with:
