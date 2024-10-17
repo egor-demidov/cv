@@ -4,4 +4,6 @@
 !*.sh
 
 !.gitignore
+!.github/
+!.github/workflows/
 

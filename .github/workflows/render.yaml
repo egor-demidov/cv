@@ -1,0 +1,28 @@
+name: Render CV
+
+run-name: CI pipeline triggered by ${{ github.actor }}
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+Compile-Linux-GNU:
+    runs-on: ubuntu-latest
+    container:
+      image: reitzig/texlive-base:2024.8
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Bootstrap
+        run: |
+          ./bootstrap.sh
+#      - name: Archive compiled artifact
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: soot-dem-linux-gnu-x86_64
+#          path: |
+#            dist

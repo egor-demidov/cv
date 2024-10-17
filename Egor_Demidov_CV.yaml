@@ -9,6 +9,10 @@ cv:
 #      username: yourusername
     - network: GitHub
       username: egor-demidov
+    - network: ORCID
+      username: 0000-0003-3082-488X
+    - network: Google Scholar
+      username: vZx_CiUAAAAJ
   sections:
     education:
       - institution: New Jersey Institute of Technology
@@ -51,45 +55,76 @@ cv:
           - 'Chong Qiu'
           - 'Alexei F. Khalizov'
         doi: 10.1016/j.jaerosci.2024.106392
-        journal: Journal of Aerosol Science
+        journal: Journal of Aerosol Science, 106392
         date: 2024-05
     conference proceedings:
-      - name: Discrete element method model for restructuring of soot aggregates
-        location: AAAR
+      - title: Discrete element method model for restructuring of soot aggregates
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        date: 2024-10
+      - title: Modeling of soot restructuring
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        journal: PNNL EMSL user meeting, online
+        date: 2024-10
+      - title: Discrete element method model for restructuring of atmospheric soot aggregates
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        journal: ACS MARM 2024, University Park, PA
+        date: 2024-06
+      - title: Development of a model for restructuring of fractal soot aggregates and its parameterization using AFM experiments
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        journal: \(42^\text{nd}\) Regional Meeting on Kinetics and Dynamics, Hartford, CT
+        date: 2024-01
+      - title: An algorithm for evaluating fractal parameters of a single soot aggregate
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: AAAR \(41^\text{st}\) Annual Conference, Portland, OR
+        date: 2023-10
+      - title: Retrieval of the fractal parameters of individual soot aggregates
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Laurence Lu'
+          - 'Divjyot Singh'
+          - 'Alexei F. Khalizov'
+        journal: \(41^\text{st}\) Regional Meeting on Kinetics and Dynamics, Amherst, MA
+        date: 2023-01
+#      - name: Retrieval of the fractal parameters of individual soot aggregates
+#        location: Regional Meeting on Kinetics and Dynamics
+#        date: 2023
+#      - name: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
+#        location: ACS NERM
+#        date: 2022
+#      - name: Light absorption and scattering by coated combustion soot and its surrogates
+#        location: AGU
+#        date: 2022
+#      - name:  Light scattering and absorption by soot aerosols with different morphologies and coating distributions
+#        location: AMS
+#        date: 2022
+#      - name: Methods for predicting supersaturation in a laminar flow
+#        location: AMS
+#        date: 2022
+#      - name: Predicting supersaturation in a laminar flow
+#        location: Regional Meeting on Kinetics and Dynamics
+#        date: 2022
+#      - name: Enhanced light scattering and absorption by soot aerosols with different coating distributions
+#        location: ACS MARM
+#        date: 2021
+    referee work:
+      - name: Journal of Geophysical Research
         date: 2024
-      - name: Modeling of soot restructuring
-        location: PNNL EMSL
-        date: 2024
-      - name: Discrete element method model for restructuring of atmospheric soot aggregates
-        location: ACS MARM
-        date: 2024
-      - name: Development of a model for restructuring of fractal soot aggregates and its parameterization using AFM experiments
-        location: Regional Meeting on Kinetics and Dynamics
-        date: 2024
-      - name: An algorithm for evaluating fractal parameters of a single soot aggregate
-        location: AAAR
-        date: 2023
-      - name: Retrieval of the fractal parameters of individual soot aggregates
-        location: Regional Meeting on Kinetics and Dynamics
-        date: 2023
-      - name: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
-        location: ACS NERM
-        date: 2022
-      - name: Light absorption and scattering by coated combustion soot and its surrogates
-        location: AGU
-        date: 2022
-      - name:  Light scattering and absorption by soot aerosols with different morphologies and coating distributions
-        location: AMS
-        date: 2022
-      - name: Methods for predicting supersaturation in a laminar flow
-        location: AMS
-        date: 2022
-      - name: Predicting supersaturation in a laminar flow
-        location: Regional Meeting on Kinetics and Dynamics
-        date: 2022
-      - name: Enhanced light scattering and absorption by soot aerosols with different coating distributions
-        location: ACS MARM
-        date: 2021
     projects:
       - name: '[soot-dem](https://github.com/egor-demidov/soot-dem)'
         highlights:
