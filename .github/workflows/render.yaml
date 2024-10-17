@@ -22,13 +22,15 @@ jobs:
             ./render.sh
 
         - name: Release
+          permissions: write-all
           uses: actions/create-release@v1
           id: create_release
           with:
             draft: false
             prerelease: false
-            release_name: ${{ github.ref }}
+            release_name: Release ${{ github.ref }}
             tag_name: ${{ github.ref }}
+            body: CV updated
           env:
             GITHUB_TOKEN: ${{ github.token }}
   #      - name: Archive compiled artifact
