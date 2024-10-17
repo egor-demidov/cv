@@ -11,15 +11,14 @@ on:
 jobs:
   Compile-Linux-GNU:
       runs-on: ubuntu-latest
-      container:
-        image: ubuntu/python:3.12-24.04_stable
       steps:
         - name: Checkout repository
           uses: actions/checkout@v3
         - name: Bootstrap
           run: |
-            sudo apt install python3
+            sudo apt install python3 python3-pip texlive-base
             ./bootstrap.sh
+            ./render.sh
   #      - name: Archive compiled artifact
   #        uses: actions/upload-artifact@v3
   #        with:
