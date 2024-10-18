@@ -174,7 +174,7 @@ cv:
         details: scanning electron microscopy, electrostatic aerosol sizing, aerosol scattering measurements, contact angle measurements
 
 design:
-  theme: engineeringresumes
+  theme: egorstheme
   font: Charter
   font_size: 10pt
   page_size: letterpaper

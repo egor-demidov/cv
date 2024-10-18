@@ -2,8 +2,10 @@
 
 !*.yaml
 !*.sh
+!*.py
+!*.tex
 
 !.gitignore
 !.github/
 !.github/workflows/
-
+!egorstheme/
