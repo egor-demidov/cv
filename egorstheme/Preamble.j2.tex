@@ -10,7 +10,7 @@
     footskip=<<design.margins.page.bottom|divide_length_by(2)>>, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
-\usepackage[explicit]{titlesec} % for customizing section titles
+\usepackage{titlesec} % for customizing section titles
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
@@ -87,18 +87,7 @@
 \pagestyle{customFooterStyle}
 ((* endif *))
 
-\titleformat{\section}{
-    % avoid page braking right after the section title
-    \needspace{4\baselineskip}
-    % make the font size of the section title large and color it with the primary color
-    \Large\color{primaryColor}
-}{
-}{
-}{
-    % print bold title, give 0.15 cm space and draw a line of 0.8 pt thickness
-    % from the end of the title to the end of the body
-    \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
-}[] % section title formatting
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
     % left space:
@@ -111,7 +100,7 @@
     <<design.margins.section_title.bottom>>
 } % section title spacing
 
-% \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
         topsep=<<design.margins.highlights_area.top>>,
@@ -124,6 +113,7 @@
     \end{itemize}
 } % new environment for highlights
 
+
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
         topsep=<<design.margins.highlights_area.top>>,
@@ -135,7 +125,6 @@
 }{
     \end{itemize}
 } % new environment for highlights for bullet entries
-
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
@@ -171,7 +160,7 @@
 } % new environment for three column entries
 
 \newenvironment{header}{
-    \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
 }{
     \par\kern\topsep
 } % new environment for the header

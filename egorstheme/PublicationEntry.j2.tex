@@ -11,14 +11,21 @@
     \begin{onecolentry}
     ((* endif *))
         \textbf{<<entry.title>>}
+    ((* if entry.date_string *))
+    \end{twocolentry}
+    ((* else *))
+    \end{onecolentry}
+    ((* endif *))
 
-        \vspace{<<design.margins.highlights_area.top>>}
-
+    \vspace{<<design.margins.highlights_area.top>>}
+    
+    \begin{onecolentry}
         <<entry.authors|map("make_it_nolinebreak")|join(", ")>>
+
         ((* if entry.doi or entry.journal or entry.url *))
         \vspace{<<design.margins.highlights_area.vertical_between_bullet_points>>}
-
         ((* endif *))
+        
         ((* if entry.doi -*))
         \href{<<entry.doi_url>>}{<<entry.doi>>}
         ((* elif entry.url -*))
@@ -28,10 +35,6 @@
         ((*- if entry.journal -*))
         <<entry.journal>>
         ((*- endif -*))
-        ((*- if (entry.doi or entry.url) and entry.journal *)))((* endif *))
-    ((* if entry.date_string *))
-    \end{twocolentry}
-    ((* else *))
+        ((*- if (entry.doi or entry.url) and entry.journal *)))((* endif -*))
     \end{onecolentry}
-    ((* endif *))
 \end{samepage}
