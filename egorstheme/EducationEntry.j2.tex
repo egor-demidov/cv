@@ -15,6 +15,11 @@
 ((* else *))
 \end{onecolentry}
 ((* endif *))
+((* if entry.minor *))
+\begin{onecolentry}
+    Minor in <<entry.minor>>
+\end{onecolentry}
+((* endif *))
 
 ((* for item in entry.highlights *))
     ((* if loop.first *))

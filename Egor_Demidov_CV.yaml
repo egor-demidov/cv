@@ -23,22 +23,15 @@ cv:
         end_date: present
         highlights:
         - Research Assistantship
-        - AAAR 2024 student travel award
-        - NSF ACCESS Explore award
       - institution: New Jersey Institute of Technology
         area: Chemical Engineering
         degree: BS
+        minor: Computer Science
         start_date: 2019-09
         end_date: 2023-05
         highlights:
-          - 'Minor in Computer Science'
           - 'Albert Dorman Honors Scholar'
           - 'Magna Cum Laude'
-          - 'Academic Scholar Award'
-          - "Redling '54, '61 Scholarship"
-          - 'Rodriguez, John, Alumni Scholarchip'
-          - 'Fenster, SK, Student Scholarship'
-          - 'Imaginative Senior Award, North Jersey AIChE section'
 
     publications:
       - title: Discrete element method model of soot aggregates
@@ -159,6 +152,9 @@ cv:
           - 'Tools Used: Docker, Bash'
 
     experimental projects:
+#      - name: Optics of soot and its surrogates
+#        highlights:
+#          -
       - name: Aerosol growth tube
         highlights:
           - Designed a condenser tube with precise vapor supersaturation control
