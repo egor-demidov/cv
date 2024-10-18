@@ -3,38 +3,32 @@
 ((* endif *))
 
 \begin{samepage}
-    ((* if entry.date_string *))
-    \begin{twocolentry}{
-        <<entry.date_string>>
-    }
-    ((* else *))
-    \begin{onecolentry}
-    ((* endif *))
-        \textbf{<<entry.title>>}
-    ((* if entry.date_string *))
-    \end{twocolentry}
-    ((* else *))
-    \end{onecolentry}
-    ((* endif *))
 
     \vspace{<<design.margins.highlights_area.top>>}
     
     \begin{onecolentry}
         <<entry.authors|map("make_it_nolinebreak")|join(", ")>>
 
+        ((* if entry.title *))
+        \vspace{<<design.margins.highlights_area.vertical_between_bullet_points>>}
+        ``<<entry.title>>''
+        ((* endif *))
+
         ((* if entry.doi or entry.journal or entry.url *))
         \vspace{<<design.margins.highlights_area.vertical_between_bullet_points>>}
         ((* endif *))
-        
-        ((* if entry.doi -*))
-        \href{<<entry.doi_url>>}{<<entry.doi>>}
-        ((* elif entry.url -*))
-        \href{<<entry.url>>}{<<entry.clean_url>>}
-        ((*- endif -*))
-        ((*- if (entry.doi or entry.url) and entry.journal *)) (((* endif -*))
+
         ((*- if entry.journal -*))
-        <<entry.journal>>
+        \textit{<<entry.journal>>},
         ((*- endif -*))
-        ((*- if (entry.doi or entry.url) and entry.journal *)))((* endif -*))
+        ((* if entry.date_string *))
+        \textbf{<<entry.date_string>>}((* if entry.volume or entry.doi  *)),((* endif *))
+        ((* endif *))
+        ((* if entry.volume *))
+        <<entry.volume>>((* if entry.doi *)),((* endif *))
+        ((* endif *))
+        ((* if entry.doi *))
+        \href{https://doi.org/<<entry.doi>>}{<<entry.doi>>}
+        ((* endif *))
     \end{onecolentry}
 \end{samepage}

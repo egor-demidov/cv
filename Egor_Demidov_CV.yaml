@@ -48,7 +48,7 @@ cv:
           - 'Alexei F. Khalizov'
         doi: 10.48550/arXiv.2407.14254
         journal: Preprint; accepted to Physical Review E
-        date: 2024-10
+        date: 2024
       - title: Differences and similarities in optical properties of coated fractal soot and its surrogates
         authors:
           - '***Egor V. Demidov***'
@@ -57,8 +57,9 @@ cv:
           - 'Chong Qiu'
           - 'Alexei F. Khalizov'
         doi: 10.1016/j.jaerosci.2024.106392
-        journal: Journal of Aerosol Science, 106392
-        date: 2024-05
+        journal: Journal of Aerosol Science
+        volume: 180, 106392
+        date: 2024
 
     conference proceedings:
       - title: Discrete element method model for restructuring of soot aggregates
