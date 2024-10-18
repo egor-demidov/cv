@@ -142,6 +142,7 @@ cv:
         highlights:
           - Developed a custom code for discrete element simulation of soot aggregate mechanics
           - 'Tools Used: C++, OpenMP, Eigen'
+          - The project resulted in a publication
       - name: '[soot-dem-gui](https://github.com/egor-demidov/soot-dem-gui)'
         highlights:
           - Developed a graphical user interface wrapper from the soot mechanics engine
@@ -152,9 +153,10 @@ cv:
           - 'Tools Used: Docker, Bash'
 
     experimental projects:
-#      - name: Optics of soot and its surrogates
-#        highlights:
-#          -
+      - name: Optics of soot and its surrogates
+        highlights:
+          - Designed and conducted a series of experiments to investigate the optical properties of bare and coated soot and its surrogates
+          - The project resulted in a publication
       - name: Aerosol growth tube
         highlights:
           - Designed a condenser tube with precise vapor supersaturation control
