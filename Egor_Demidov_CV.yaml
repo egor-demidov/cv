@@ -60,7 +60,7 @@ cv:
           - '\underline{Alexei F. Khalizov}'
           - 'Ali Hasani'
           - '***Egor V. Demidov***'
-        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        journal: American Association for Aerosol Research \(42^\text{nd}\) Annual Conference, Albuquerque, NM
         date: 2024-10
       - title: Capillary condensation as an unaccounted pathway for rapid aging of atmospheric soot
         authors:
@@ -69,7 +69,7 @@ cv:
           - 'Nicole Riemer'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
-        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        journal: American Association for Aerosol Research \(42^\text{nd}\) Annual Conference, Albuquerque, NM
         date: 2024-10
       - title: Reconciling measured and modeled optical properties of black carbon
         authors:
@@ -78,14 +78,14 @@ cv:
           - 'Arthur J. Sedlacek'
           - 'Ernie R. Lewis'
           - 'Alexei F. Khalizov'
-        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        journal: American Association for Aerosol Research \(42^\text{nd}\) Annual Conference, Albuquerque, NM
         date: 2024-10
       - title: Discrete element method model for restructuring of soot aggregates
         authors:
           - '***Egor V. Demidov***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
-        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        journal: American Association for Aerosol Research \(42^\text{nd}\) Annual Conference, Albuquerque, NM
         date: 2024-10
       - title: Reconciling measured and modeled optical properties of black carbon
         authors:
@@ -94,21 +94,21 @@ cv:
           - 'Arthur J. Sedlacek'
           - 'Ernie R. Lewis'
           - 'Alexei F. Khalizov'
-        journal: PNNL EMSL user meeting, online
+        journal: Pacific Northwest National Laboratory Environmental Molecular Sciences Laboratory User Meeting, online
         date: 2024-10
       - title: Modeling of soot restructuring
         authors:
           - '***Egor V. Demidov***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
-        journal: PNNL EMSL user meeting, online
+        journal: Pacific Northwest National Laboratory Environmental Molecular Sciences Laboratory User Meeting, online
         date: 2024-10
       - title: Discrete element method model for restructuring of atmospheric soot aggregates
         authors:
           - '***Egor V. Demidov***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
-        journal: ACS MARM 2024, University Park, PA
+        journal: American Chemical Society Middle Atlantic Regional Meeting 2024, University Park, PA
         date: 2024-06
       - title: Development of a model for restructuring of fractal soot aggregates and its parameterization using AFM experiments
         authors:
@@ -122,7 +122,7 @@ cv:
         authors:
           - '***Egor V. Demidov***'
           - 'Alexei F. Khalizov'
-        journal: AAAR \(41^\text{st}\) Annual Conference, Portland, OR
+        journal: American Association for Aerosol Research \(41^\text{st}\) Annual Conference, Portland, OR
         date: 2023-10
       - title: Modeling of joint capillary condensation of trace chemicals and water on fractal soot aggregates
         authors:
@@ -131,7 +131,7 @@ cv:
           - '***Egor V. Demidov***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
-        journal: AAAR \(41^\text{st}\) Annual Conference, Portland, OR
+        journal: American Association for Aerosol Research \(41^\text{st}\) Annual Conference, Portland, OR
         date: 2023-10
       - title: Retrieval of the fractal parameters of individual soot aggregates
         authors:
@@ -148,13 +148,13 @@ cv:
           - 'Ogochukwu Enekwizu'
           - 'Chong Qiu'
           - 'Alexei F. Khalizov'
-        journal: AGU Fall Meeting 2022, Chicago, IL
+        journal: American Geophysical Union Fall Meeting 2022, Chicago, IL
         date: 2022-12
       - title: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
         authors:
           - '***Egor V. Demidov***'
           - 'Alexei F. Khalizov'
-        journal: ACS NERM 2022, Rochester, NY
+        journal: American Chemical Society Northeast Regional Meeting 2022, Rochester, NY
         date: 2022-10
       - title: Predicting vapor supersaturation and particle growth rate in a laminar flow
         authors:
@@ -175,26 +175,26 @@ cv:
           - 'Ali Hasani'
           - 'Ogochukwu Enekwizu'
           - 'Alexei F. Khalizov'
-        journal: \(102^\text{nd}\) AMS Annual Meeting, online
+        journal: \(102^\text{nd}\) American Meteorological Society Annual Meeting, online
         date: 2022-01
       - title: Methods for predicting supersaturation in a laminar flow
         authors:
           - '***Egor V. Demidov***'
           - 'Alexei F. Khalizov'
-        journal: \(102^\text{nd}\) AMS Annual Meeting, online
+        journal: \(102^\text{nd}\) American Meteorological Society Annual Meeting, online
         date: 2022-01
       - title: Different mechanisms of soot restructuring by wetting and non-wetting liquids
         authors:
           - '\underline{Ali Hasani}'
           - '***Egor V. Demidov***'
           - 'Alexei F. Khalizov'
-        journal: AGU Fall Meeting 2021, online
+        journal: American Geophysical Union Fall Meeting 2021, online
         date: 2021-12
       - title: Enhanced light scattering and absorption by soot aerosols with different coating distributions
         authors:
           - '***Egor V. Demidov***'
           - 'Alexei F. Khalizov'
-        journal: ACS MARM 2021, online
+        journal: American Chemical Society Middle Atlantic Regional Meeting 2021, online
         date: 2021-06
     referee work:
       - name: Physical Review Fluids
@@ -205,7 +205,8 @@ cv:
     software projects:
       - name: '[soot-dem](https://github.com/egor-demidov/soot-dem)'
         highlights:
-          - Developed a custom code for discrete element simulation of soot aggregate mechanics
+          - Developed a discrete element method contact model for soot aggregate mechanics
+          - Implemented the developed contact model in an in-house code
           - 'Tools Used: C++, OpenMP, Eigen'
           - The project resulted in a publication
       - name: '[soot-dem-gui](https://github.com/egor-demidov/soot-dem-gui)'
