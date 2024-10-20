@@ -55,12 +55,46 @@ cv:
         date: 2024
 
     conference proceedings:
+      - title: Soot restructuring in condensation-evaporation cycles
+        authors:
+          - '\underline{Alexei F. Khalizov}'
+          - 'Ali Hasani'
+          - '***Egor V. Demidov***'
+        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        date: 2024-10
+      - title: Capillary condensation as an unaccounted pathway for rapid aging of atmospheric soot
+        authors:
+          - '\underline{Ella V. Ivanova}'
+          - '***Egor V. Demidov***'
+          - 'Nicole Riemer'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        date: 2024-10
+      - title: Reconciling measured and modeled optical properties of black carbon
+        authors:
+          - '\underline{Ogochukwu Y. Enekwizu}'
+          - '***Egor V. Demidov***'
+          - 'Arthur J. Sedlacek'
+          - 'Ernie R. Lewis'
+          - 'Alexei F. Khalizov'
+        journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        date: 2024-10
       - title: Discrete element method model for restructuring of soot aggregates
         authors:
           - '***Egor V. Demidov***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
         journal: AAAR \(42^\text{nd}\) Annual Conference, Albuquerque, NM
+        date: 2024-10
+      - title: Reconciling measured and modeled optical properties of black carbon
+        authors:
+          - '\underline{Ogochukwu Y. Enekwizu}'
+          - '***Egor V. Demidov***'
+          - 'Arthur J. Sedlacek'
+          - 'Ernie R. Lewis'
+          - 'Alexei F. Khalizov'
+        journal: PNNL EMSL user meeting, online
         date: 2024-10
       - title: Modeling of soot restructuring
         authors:
@@ -90,6 +124,15 @@ cv:
           - 'Alexei F. Khalizov'
         journal: AAAR \(41^\text{st}\) Annual Conference, Portland, OR
         date: 2023-10
+      - title: Modeling of joint capillary condensation of trace chemicals and water on fractal soot aggregates
+        authors:
+          - '\underline{Ella V. Ivanova}'
+          - 'Ali Hasani'
+          - '***Egor V. Demidov***'
+          - 'Gennady Y. Gor'
+          - 'Alexei F. Khalizov'
+        journal: AAAR \(41^\text{st}\) Annual Conference, Portland, OR
+        date: 2023-10
       - title: Retrieval of the fractal parameters of individual soot aggregates
         authors:
           - '***Egor V. Demidov***'
@@ -113,6 +156,19 @@ cv:
           - 'Alexei F. Khalizov'
         journal: ACS NERM 2022, Rochester, NY
         date: 2022-10
+      - title: Predicting vapor supersaturation and particle growth rate in a laminar flow
+        authors:
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: \(40^\text{th}\) Regional Meeting on Kinetics and Dynamics, online
+        date: 2022-01
+      - title: Different mechanisms of soot restructuring by wetting and non-wetting liquid
+        authors:
+          - '\underline{Ali Hasani}'
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: \(40^\text{th}\) Regional Meeting on Kinetics and Dynamics, online
+        date: 2022-01
       - title: Light scattering and absorption by soot aerosols with different morphologies and coating distributions
         authors:
           - '***Egor V. Demidov***'
@@ -127,6 +183,13 @@ cv:
           - 'Alexei F. Khalizov'
         journal: \(102^\text{nd}\) AMS Annual Meeting, online
         date: 2022-01
+      - title: Different mechanisms of soot restructuring by wetting and non-wetting liquids
+        authors:
+          - '\underline{Ali Hasani}'
+          - '***Egor V. Demidov***'
+          - 'Alexei F. Khalizov'
+        journal: AGU Fall Meeting 2021, online
+        date: 2021-12
       - title: Enhanced light scattering and absorption by soot aerosols with different coating distributions
         authors:
           - '***Egor V. Demidov***'
