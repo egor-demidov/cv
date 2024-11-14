@@ -34,6 +34,14 @@ cv:
           - 'Magna Cum Laude'
 
     publications:
+      - title: Mechanical properties of bare and coated soot aggregates probed by atomic force microscopy
+        authors:
+          - 'Ashoka Karunarathne'
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Alexei F. Khalizov'
+        journal: Submitted to Journal of Aerosol Science
+        date: 2024
       - title: Discrete element method model of soot aggregates
         authors:
           - '***Egor V. Demidov***'
