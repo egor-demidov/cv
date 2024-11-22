@@ -47,8 +47,9 @@ cv:
           - '***Egor V. Demidov***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
-        doi: 10.48550/arXiv.2407.14254
-        journal: Preprint; accepted to Physical Review E
+        doi: 10.1103/PhysRevE.110.054902
+        journal: Physical Review E
+        volume: 110, 054902
         date: 2024
       - title: Differences and similarities in optical properties of coated fractal soot and its surrogates
         authors:
