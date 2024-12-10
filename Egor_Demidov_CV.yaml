@@ -64,6 +64,17 @@ cv:
         date: 2024
 
     conference proceedings:
+      - title: An unaccounted pathway for rapid aging of atmospheric soot
+        authors:
+          - 'Alexei F. Khalizov'
+          - 'Ella V. Ivanova'
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Jeffrey Curtis'
+          - 'Nicole Riemer'
+          - 'Gennady Y. Gor'
+        journal: American Geophysical Union Fall Meeting 2024, Washington, DC
+        date: 2024-12
       - title: Soot restructuring in condensation-evaporation cycles
         authors:
           - '\underline{Alexei F. Khalizov}'
