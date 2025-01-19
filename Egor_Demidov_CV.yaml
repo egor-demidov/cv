@@ -34,14 +34,25 @@ cv:
           - 'Magna Cum Laude'
 
     publications:
+      - title: An unaccounted pathway for rapid aging of atmospheric soot
+        authors:
+          - 'Alexei F. Khalizov'
+          - 'Ella V. Ivanova'
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Jeffrey H. Curtis'
+          - 'Nicole Riemer'
+          - 'Gennady Y. Gor'
+        journal: Submitted to Environmental Science and Technology
+        date: 2025
       - title: Mechanical properties of bare and coated soot aggregates probed by atomic force microscopy
         authors:
           - 'Ashoka Karunarathne'
           - '***Egor V. Demidov***'
           - 'Ali Hasani'
           - 'Alexei F. Khalizov'
-        journal: Submitted to Journal of Aerosol Science
-        date: 2024
+        journal: Journal of Aerosol Science
+        date: 2025
       - title: Discrete element method model of soot aggregates
         authors:
           - '***Egor V. Demidov***'
@@ -64,6 +75,17 @@ cv:
         date: 2024
 
     conference proceedings:
+      - title: An unaccounted pathway for rapid aging of atmospheric soot
+        authors:
+          - 'Alexei F. Khalizov'
+          - 'Ella V. Ivanova'
+          - '***Egor V. Demidov***'
+          - 'Ali Hasani'
+          - 'Jeffrey Curtis'
+          - 'Nicole Riemer'
+          - 'Gennady Y. Gor'
+        journal: \(43^\text{rd}\) Regional Meeting on Kinetics and Dynamics, Newark, NJ
+        date: 2025-01
       - title: An unaccounted pathway for rapid aging of atmospheric soot
         authors:
           - 'Alexei F. Khalizov'
@@ -227,6 +249,11 @@ cv:
         date: 2024
 
     software projects:
+      - name: '[Capillary condensation web-application](https://www.edemidov.com/capillary-condensation)'
+        highlights:
+          - Developed a web-application that simulates capillary condensation of trace chemicals on fractal soot
+          - Implemented the capillary condensation model in an open-source C++ library
+          - 'Tools Used: C++, Emscripten, React'
       - name: '[soot-dem](https://github.com/egor-demidov/soot-dem)'
         highlights:
           - Developed a discrete element method contact model for soot aggregate mechanics
