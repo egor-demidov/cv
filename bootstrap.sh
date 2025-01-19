@@ -10,5 +10,5 @@ fi
 source ./venv/bin/activate
 
 # Install RenderCV
-pip3 install rendercv
-
+#pip3 install rendercv
+pip install "rendercv[full]"
