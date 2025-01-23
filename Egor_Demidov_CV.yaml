@@ -51,7 +51,9 @@ cv:
           - '***Egor V. Demidov***'
           - 'Ali Hasani'
           - 'Alexei F. Khalizov'
+        doi: 10.1016/j.jaerosci.2024.106523
         journal: Journal of Aerosol Science
+        volume: 185, 106523
         date: 2025
       - title: Discrete element method model of soot aggregates
         authors:
@@ -74,12 +76,12 @@ cv:
         volume: 180, 106392
         date: 2024
 
-    conference proceedings:
+    conference proceedings (presenting authors underlined):
       - title: An unaccounted pathway for rapid aging of atmospheric soot
         authors:
           - 'Alexei F. Khalizov'
           - 'Ella V. Ivanova'
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Ali Hasani'
           - 'Jeffrey Curtis'
           - 'Nicole Riemer'
@@ -90,7 +92,7 @@ cv:
         authors:
           - 'Alexei F. Khalizov'
           - 'Ella V. Ivanova'
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Ali Hasani'
           - 'Jeffrey Curtis'
           - 'Nicole Riemer'
@@ -124,7 +126,7 @@ cv:
         date: 2024-10
       - title: Discrete element method model for restructuring of soot aggregates
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
         journal: American Association for Aerosol Research \(42^\text{nd}\) Annual Conference, Albuquerque, NM
@@ -140,21 +142,21 @@ cv:
         date: 2024-10
       - title: Modeling of soot restructuring
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
         journal: Pacific Northwest National Laboratory Environmental Molecular Sciences Laboratory User Meeting, online
         date: 2024-10
       - title: Discrete element method model for restructuring of atmospheric soot aggregates
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
         journal: American Chemical Society Middle Atlantic Regional Meeting 2024, University Park, PA
         date: 2024-06
       - title: Development of a model for restructuring of fractal soot aggregates and its parameterization using AFM experiments
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Ali Hasani'
           - 'Gennady Y. Gor'
           - 'Alexei F. Khalizov'
@@ -162,7 +164,7 @@ cv:
         date: 2024-01
       - title: An algorithm for evaluating fractal parameters of a single soot aggregate
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Alexei F. Khalizov'
         journal: American Association for Aerosol Research \(41^\text{st}\) Annual Conference, Portland, OR
         date: 2023-10
@@ -177,7 +179,7 @@ cv:
         date: 2023-10
       - title: Retrieval of the fractal parameters of individual soot aggregates
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Laurence Lu'
           - 'Divjyot Singh'
           - 'Alexei F. Khalizov'
@@ -185,7 +187,7 @@ cv:
         date: 2023-01
       - title: Light absorption and scattering by coated combustion soot and its surrogates
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Ali Hasani'
           - 'Ogochukwu Enekwizu'
           - 'Chong Qiu'
@@ -194,13 +196,13 @@ cv:
         date: 2022-12
       - title: Heterogeneous nucleation of a non-wetting vapor on NaCl aerosol nanoparticles and its implications on cloud forming and optical properties
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Alexei F. Khalizov'
         journal: American Chemical Society Northeast Regional Meeting 2022, Rochester, NY
         date: 2022-10
       - title: Predicting vapor supersaturation and particle growth rate in a laminar flow
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Alexei F. Khalizov'
         journal: \(40^\text{th}\) Regional Meeting on Kinetics and Dynamics, online
         date: 2022-01
@@ -213,7 +215,7 @@ cv:
         date: 2022-01
       - title: Light scattering and absorption by soot aerosols with different morphologies and coating distributions
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Ali Hasani'
           - 'Ogochukwu Enekwizu'
           - 'Alexei F. Khalizov'
@@ -221,7 +223,7 @@ cv:
         date: 2022-01
       - title: Methods for predicting supersaturation in a laminar flow
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Alexei F. Khalizov'
         journal: \(102^\text{nd}\) American Meteorological Society Annual Meeting, online
         date: 2022-01
@@ -234,19 +236,40 @@ cv:
         date: 2021-12
       - title: Enhanced light scattering and absorption by soot aerosols with different coating distributions
         authors:
-          - '***Egor V. Demidov***'
+          - '***\underline{Egor V. Demidov}***'
           - 'Alexei F. Khalizov'
         journal: American Chemical Society Middle Atlantic Regional Meeting 2021, online
         date: 2021-06
-    referee work:
-      - name: Atmospheric Pollution Research
-        date: 2024
-      - name: Nature Reviews Physics
-        date: 2024
-      - name: Physical Review Fluids
-        date: 2024
-      - name: Journal of Geophysical Research
-        date: 2024
+
+    research projects:
+      - name: Capillary condensation of vapors on fractal soot aggregates
+        highlights:
+          - Conducted finite element modeling do determine vapor saturation in an aging chamber
+          - Helped extend the capillary condensation model to multiple components
+          - Created an open-source C++ library for capillary condensation on soot
+          - The project resulted in a publication submission
+      - name: Development of a soot restructuring model
+        highlights:
+          - Developed a discrete element method (DEM) contact model for soot aggregates
+          - Ran simulations to parametrize the contact model on experiments
+          - Created an open-source C++ code for soot aggregate DEM simulations
+          - This project resulted in a publication and is featured in another publication
+      - name: Adsorption-induced surface stress in amorphous silica
+        highlights:
+          - Compared multiple molecular dynamics potentials to find the optimal one for the system of interest
+          - Ran molecular simulations in LAMMPS to study the effects of hydroxylation on the surface stress in silica
+      - name: Optics of soot and its surrogates
+        highlights:
+          - Designed and conducted a series of experiments to investigate the optical properties of bare and coated soot and its surrogates
+          - The project resulted in a publication
+      - name: Aerosol growth tube
+        highlights:
+          - Designed a condenser tube with precise vapor supersaturation control
+          - Rates of heat and mass transfer in the condenser were simulated numerically
+      - name: Aerosol coagulation chamber
+        highlights:
+          - Extended Alexei Khalizov's aerosol generation and aging system with a coagulation chamber with controlled residence time
+          - The coagulation chamber allowed us to investigate the mechanical differences between nascent soot aggregates and agglomerates of aggregates
 
     software projects:
       - name: '[Capillary condensation web-application](https://www.edemidov.com/capillary-condensation)'
@@ -269,19 +292,24 @@ cv:
           - Developed a GitHub action to automatically generate latexdiff files for version-controlled \LaTeX\ projects
           - 'Tools Used: Docker, Bash'
 
-    experimental projects:
-      - name: Optics of soot and its surrogates
+    referee work:
+      - name: Atmospheric Pollution Research
+        date: 2024
+      - name: Nature Reviews Physics
+        date: 2024
+      - name: Physical Review Fluids
+        date: 2024
+      - name: Journal of Geophysical Research
+        date: 2024
+
+    event organization:
+      - name: 43rd Regional Meeting on Kinetics and Dynamics
+        date: 2025-01-25
         highlights:
-          - Designed and conducted a series of experiments to investigate the optical properties of bare and coated soot and its surrogates
-          - The project resulted in a publication
-      - name: Aerosol growth tube
-        highlights:
-          - Designed a condenser tube with precise vapor supersaturation control
-          - Rates of heat and mass transfer in the condenser were simulated numerically
-      - name: Aerosol coagulation chamber
-        highlights:
-          - Extended Alexei Khalizov's aerosol generation and aging system with a coagulation chamber with controlled residence time
-          - The coagulation chamber allowed us to investigate the mechanical differences between nascent soot aggregates and agglomerates of aggregates
+          - Created and maintained the \underline{[meeting website](https://rmkd.edemidov.com/)}
+          - Handled participant registration
+          - Made the event schedule
+          - Helped with space and catering arrangements
 
     areas of expertise:
       - label: Computational chemistry and physics
